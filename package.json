@@ -1,6 +1,6 @@
 {
   "name": "locate-chrome",
-  "version": "0.1.1",
+  "version": "0.0.1",
   "description": "Find Google Chrome on your system",
   "main": "index.js",
   "bin": {
@@ -9,9 +9,9 @@
   "license": "MIT",
   "scripts": {},
   "author": {
-    "name": "David Clark",
-    "email": "david.dave.clark@gmail.com",
-    "url": "http://davidtheclark.com"
+    "name": "Kenneth Auchenberg",
+    "email": "kenneth@auchenberg.dk",
+    "url": "https://kenneth.io"
   },
   "dependencies": {
     "es6-promise": "^2.0.0",
@@ -21,17 +21,16 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git://github.com/davidtheclark/locate-chrome.git"
+    "url": "git://github.com/auchenberg/locate-opera.git"
   },
   "keywords": [
-    "chrome",
-    "google-chrome",
+    "opera",
     "browser",
     "locate",
     "find"
   ],
-  "homepage": "https://github.com/davidtheclark/locate-chrome",
+  "homepage": "https://github.com/auchenberg/locate-opera",
   "bugs": {
-    "url": "https://github.com/davidtheclark/locate-chrome/issues"
+    "url": "https://github.com/auchenberg/locate-opera/issues"
   }
 }
