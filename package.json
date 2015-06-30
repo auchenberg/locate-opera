@@ -1,7 +1,7 @@
 {
-  "name": "locate-chrome",
+  "name": "locate-opera",
   "version": "0.0.1",
-  "description": "Find Google Chrome on your system",
+  "description": "Find Opera on your system",
   "main": "index.js",
   "bin": {
     "locate-chrome": "bin.js"
