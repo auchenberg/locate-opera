@@ -4,7 +4,7 @@
   "description": "Find Opera on your system",
   "main": "index.js",
   "bin": {
-    "locate-chrome": "bin.js"
+    "locate-opera": "bin.js"
   },
   "license": "MIT",
   "scripts": {},

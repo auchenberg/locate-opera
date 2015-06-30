@@ -21,10 +21,10 @@ module.exports = function(cb) {
 }
 
 function getOSXPath(finisher) {
-  var toExec = '/Contents/MacOS/Google Chrome';
-  var regPath = '/Applications/Google Chrome.app' + toExec;
+  var toExec = '/Contents/MacOS/Opera';
+  var regPath = '/Applications/Opera.app' + toExec;
   var altPath = userhome(regPath.slice(1));
-  var mdFindCmd = 'mdfind \'kMDItemDisplayName == "Google Chrome" && kMDItemKind == Application\'';
+  var mdFindCmd = 'mdfind \'kMDItemDisplayName == "Opera" && kMDItemKind == Application\'';
 
   queue(1)
     .defer(tryLocation, regPath, finisher)
@@ -41,7 +41,7 @@ function getOSXPath(finisher) {
 }
 
 function getWinPath(finisher) {
-  var winSuffix = '\\Google\\Chrome\\Application\\chrome.exe';
+  var winSuffix = '\\Google\\Opera\\opera.exe';
   var prefixes = [
     process.env.LOCALAPPDATA,
     process.env.PROGRAMFILES,
@@ -56,7 +56,7 @@ function getWinPath(finisher) {
 }
 
 function getLinuxPath(finisher) {
-  exec('which google-chrome', function(err, r) {
+  exec('which opera', function(err, r) {
     if (err) throw err;
     finisher(r.trim());
   });

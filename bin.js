@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-var locateChrome = require('./');
+var locateOpera = require('./');
 
-locateChrome().then(function(r) {
+locateOpera().then(function(r) {
   console.log(r);
 });
